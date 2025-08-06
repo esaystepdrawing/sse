@@ -1,0 +1,24 @@
+.logo {
+    max-width: 150px; /* Adjust the maximum width of the logo */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .navbar-brand img {
+    margin-bottom: 5px; /* Adjust spacing between logo and text */
+  }
+  
+  .navbar-brand div {
+    font-size: 1.5rem; /* Adjust font size of the text */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  @media (min-width: 768px) {
+    .logo {
+      max-width: 200px; /* Larger logo for medium and larger screens */
+    }
+  }
+  
+  .navbar-brand div {
+    font-size: 1.25rem; /* Adjust font size of the text */
+    font-weight: bold; /* Make the text bold */
+  }

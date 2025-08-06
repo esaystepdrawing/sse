@@ -166,7 +166,7 @@
 /* Desktop - 1300px (To make image background parallax) */
 @media only screen and (min-width: 81.25rem) {
     #hero-143 {
-        background: url("/images/thron058.webp");
+        background: url("https://github.com/esaystepdrawing/sse/blob/see/public/images/thron058.webp");
         background-size: cover;
         background-position: center 5px;
         background-repeat: no-repeat;

@@ -52,7 +52,7 @@ function Footer() {
                         <a href="https://sairhythms.sathyasai.org/" className="cs-nav-link" target="_blank" rel="noopener noreferrer">Sai Rhythms - Prayer and Bhajan</a>
                     </li>
                     <li className="cs-nav-li">
-                        <a href="https://www.youtube.com/channel/UC-utAMgGxJVomfglWt_XWiQ" className="cs-nav-link" target="_blank" rel="noopener noreferrer">Youtube Video</a>
+                        <a href="https://www.youtube.com/channel/UC-utAMgGxJVomfglWt_XWiQ" className="cs-nav-link" target="_blank" rel="noopener noreferrer">Youtube</a>
                     </li>
                 </ul>
             </div>

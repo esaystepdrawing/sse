@@ -13,19 +13,19 @@ function SaiService() {
                         <p className="cs-text"></p>
                         <ol>
                             <li>
-                                Selfless Love: Service should be performed with unconditional love and the attitude of serving God in all beings. 
+                                <strong>Selfless Love:</strong> Service should be performed with unconditional love and the attitude of serving God in all beings. 
                             </li>
                             <li>
-                                Humility and Appreciation: Volunteers should approach service with humility, recognizing the opportunity to serve as a gift from God. 
+                                <strong>Humility and Appreciation</strong>: Volunteers should approach service with humility, recognizing the opportunity to serve as a gift from God. 
                             </li>
                             <li>
-                                Ego and Attachment: Baba emphasized the importance of overcoming ego and attachment in service, as these can hinder spiritual progress. 
+                                <strong>Ego and Attachment</strong>: Baba emphasized the importance of overcoming ego and attachment in service, as these can hinder spiritual progress. 
                             </li>
                             <li>
-                                "Love All Serve All": This is the core principle guiding the SSIO's service activities. 
+                                <strong>"Love All Serve All"</strong>: This is the core principle guiding the SSIO's service activities. 
                             </li>
                             <li>
-                                Service to Others as Service to God: Baba taught that serving humanity is serving the divine. 
+                                <strong>Service to Others as Service to God</strong>: Baba taught that serving humanity is serving the divine. 
                             </li>
                         </ol>
                         

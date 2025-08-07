@@ -84,7 +84,8 @@ function Contact() {
                     <span className="cs-topper">Sai Spiritual Education</span>
                     <h2 className="cs-title">Bal Vikas / SSE</h2>
                     <p className="cs-text">
-                        Sai Spiritual Education is a FREE program to nurture the innate divinity in children and young adults. It is a spiritual education program that helps children develop a strong moral foundation, character, and values.
+                        Sai Spiritual Education is a <strong>FREE</strong> program to nurture the innate divinity in children and young adults. <br /><br />
+                        It is a spiritual education program that helps children develop a <strong>strong moral foundation</strong>, <strong>character</strong>, and <strong>values</strong>.
                     </p>
                     <p className="cs-text">
                         The program is open to all children aged 5-18, regardless of their background or beliefs. It is designed to be inclusive and welcoming to all.

@@ -13,7 +13,7 @@
         padding-bottom: clamp(12.125rem, 30.95vw, 28.125rem);
         position: relative;
         
-        z-index: 1;
+        z-index: 0.6;
         /* Prevents white rectangle pseudos from overlapping the sections below */
         overflow: hidden;
     }

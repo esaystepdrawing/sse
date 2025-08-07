@@ -180,6 +180,10 @@
   #cs-contact-490 .cs-button-solid:hover:before {
     width: 100%;
   }
+  #cs-contact-490 h3 {
+    font-size: 1.5rem;
+    color: var(--primary);
+  }
 }
 /* Tablet - 700px */
 @media only screen and (min-width: 43.75rem) {

@@ -16,7 +16,7 @@ function Footer() {
                         <span className="cs-header">Contact</span>
                     </li>
                     <li className="cs-nav-li">
-                        <a className="cs-nav-link" href="tel:123-456 7890">(123) 456 7890</a>
+                        <a className="cs-nav-link" href="tel:414-301-2753">(414) 301 2753</a>
                     </li>
                     <li className="cs-nav-li">
                         <a className="cs-nav-link" href="mailto:info@codestitch.com">saicenter.milwaukee@gmail.com</a>

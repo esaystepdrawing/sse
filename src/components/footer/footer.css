@@ -12,13 +12,14 @@
     #cs-footer-274 .cs-container {
         width: 100%;
         /* reset on tablet */
-        max-width: 34.375rem;
         margin: auto;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         flex-wrap: wrap;
         column-gap: 5.5rem;
+        max-width: 1200px;
+
     }
     #cs-footer-274 .cs-logo-group {
         /* takes up all the space, lets the other ul's wrap below it */
@@ -154,4 +155,20 @@
     }
 }
 
+/* Responsive styles */
+@media (max-width: 768px) {
+  #cs-footer-274 .cs-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.5rem;
+  }
+  #cs-footer-274 .cs-logo-group,
+  .cs-nav {
+    margin: 0 0 1rem 0;
+    flex: 1 1 100%;
+  }
+  #cs-footer-274 .cs-logo-img {
+    max-width: 140px;
+  }
+}
                                 

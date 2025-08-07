@@ -19,6 +19,31 @@ function Contact() {
     const handleSubmit = (event) => {
     event.preventDefault();
 
+    if (isNaN(childgrade) || childgrade.trim() === "") {
+        setMessage("Please enter Student Grade as Number.");
+    return;
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(momemail)) {
+        setMessage("Please enter a valid email address.");
+        return;
+    }
+
+    if (!momemail.includes('@') || !momemail.includes('.')) {
+        setMessage("Please enter a valid email address.");
+    return;
+    }
+
+    if (momphone.trim() === "" || isNaN(momphone)) {
+        setMessage("Please enter a valid phone number.");
+    return;
+    }
+
+    if (parentname.trim() === "" || childname.trim() === "" || parentchild.trim() === "") {
+        setMessage("Please fill in all required fields.");
+    return;
+    }
+    // Collect form data
     const formData = new URLSearchParams();
     formData.append("parentname", parentname);
     formData.append("childname", childname);
@@ -71,6 +96,7 @@ function Contact() {
                     </a>
                 </div>
                 <form id="cs-form-490" name="Contact Form" method="post" onSubmit={handleSubmit}>
+                    <div> <h3>{message ? <p> {message} </p> : null}</h3> </div>
                     <label className="cs-label">
                         Parent Name
                         <input className="cs-input" value={parentname} required type="text" id="name-490" placeholder="Parent Name" onChange={(e) => setName(e.target.value)} ></input>
@@ -105,7 +131,7 @@ function Contact() {
                         <input className="cs-input" value={joinwhatsapp} type="checkbox" id="whatsapp-490" checked={joinwhatsapp} onChange={(e) => setWhatsapp(e.target.checked)}></input>
                         <span className="cs-checkbox">Yes, I would like to join the SSE Whatsapp group</span>
                     </label>
-                    <button className="cs-button-solid" type="submit">Submit Message Now</button>
+                    <button className="cs-button-solid" type="submit">Submit Now.. Sai Ram</button>
                     <div> {message ? <p> {message} </p> : null} </div>
                 </form>
             </div>

@@ -38,6 +38,23 @@ function Footer() {
                         Sunday: 2:30pm-6:00pm
                     </li>
                 </ul>
+                 <ul className="cs-nav">
+                    <li className="cs-nav-li">
+                        <span className="cs-header">Sai Websites</span>
+                    </li>
+                    <li className="cs-nav-li">
+                        <a href="https://www.sathyasai.org/" className="cs-nav-link" target="_blank" rel="noopener noreferrer">Sathya Sai International Organization</a>
+                    </li>
+                    <li className="cs-nav-li">
+                        <a href="https://saiuniverse.sathyasai.org/" className="cs-nav-link" target="_blank" rel="noopener noreferrer">Sri Sathya Sai Universe</a>
+                    </li>
+                    <li className="cs-nav-li">
+                        <a href="https://sairhythms.sathyasai.org/" className="cs-nav-link" target="_blank" rel="noopener noreferrer">Sai Rhythms - Prayer and Bhajan</a>
+                    </li>
+                    <li className="cs-nav-li">
+                        <a href="https://www.youtube.com/channel/UC-utAMgGxJVomfglWt_XWiQ" className="cs-nav-link" target="_blank" rel="noopener noreferrer">Youtube Video</a>
+                    </li>
+                </ul>
             </div>
         </footer>
     );

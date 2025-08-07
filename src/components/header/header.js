@@ -57,6 +57,17 @@ function Header() {
                             </p>
                         </a>
                     </li>
+                    <li className="cs-item">
+                        <a className="cs-link" href="/service" rel="noopener noreferrer">
+                            <picture className="cs-icon">
+                                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Services/two-people.svg" alt="service" width="52" height="52" aria-hidden="true"></img>
+                            </picture>
+                            <h2 className="cs-title">Service</h2>
+                            <p className="cs-text">
+                                Engaging in selfless service to help those in need and make a positive impact in the community. <strong>Help Ever, Hurt Never.</strong>
+                            </p>
+                        </a>
+                    </li>
                 </ul>
             </section>  
         </>  

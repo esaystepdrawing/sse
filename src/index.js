@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router";
 import SSE from './pages/sse';
 import SathyaSai100Birthday from './pages/sathyasai100birthday';
-
+import SaiServicePage from './pages/service';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +15,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="/sse" element={<SSE />} />
       <Route path="/sathya100birthday" element={<SathyaSai100Birthday />} />
+      <Route path="/service" element={<SaiServicePage />} />
     </Routes>
   </BrowserRouter>
 );

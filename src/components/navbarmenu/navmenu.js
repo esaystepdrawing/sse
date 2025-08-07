@@ -24,6 +24,7 @@ function SathyaSaiMenu() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/sse"><strong>SSE</strong></Nav.Link>
             <Nav.Link href="/sathya100birthday"><strong>Sathya Sai 100 Birthday</strong></Nav.Link>
+            <Nav.Link href="/service"><strong>Service</strong></Nav.Link>
             <Nav.Link href="https://sairhythms.sathyasai.org/" target="_blank"><strong>Prayer and Bhajan</strong></Nav.Link>
           </Nav>
         </Navbar.Collapse>

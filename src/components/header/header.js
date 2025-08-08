@@ -31,29 +31,29 @@ function Header() {
                             </picture>
                             <h2 className="cs-title">Sai Spiritual Education</h2>
                             <p className="cs-text">
-                                A spiritual education program that helps children develop a strong moral foundation, character, and values.
+                                A Spiritual Education program that helps children develop a strong <strong>moral foundation</strong>, <strong>character</strong>, and <strong>values</strong>.
                             </p>
                         </a>
                     </li>
                     <li className="cs-item">
                         <a className="cs-link" href="/sathya100birthday">
                             <picture className="cs-icon">
-                                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/checkmark-circle-gold.svg" alt="icon" width="52" height="52" aria-hidden="true"></img>
+                                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/Like-gold.svg" alt="icon" width="52" height="52" aria-hidden="true"></img>
                             </picture>
                             <h2 className="cs-title">Sathya Sai 100th Birthday</h2>
                             <p className="cs-text">
-                                Sathya Sai Baba's 100th birthday celebration, a time to reflect on his teachings and legacy.
+                                Sathya Sai Baba's <strong>100th birthday</strong> celebration, a time to reflect on his teachings and legacy.
                             </p>
                         </a>
                     </li>
                     <li className="cs-item">
                         <a className="cs-link" href="https://sairhythms.sathyasai.org/" target="_blank" rel="noopener noreferrer">
                             <picture className="cs-icon">
-                                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/Like-gold.svg" alt="icon" width="52" height="52" aria-hidden="true"></img>
+                                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/checkmark-circle-gold.svg" alt="icon" width="52" height="52" aria-hidden="true"></img>
                             </picture>
                             <h2 className="cs-title">Prayer and Bhajan</h2>
                             <p className="cs-text">
-                                Singing devotional songs and prayers to connect with the divine and foster a sense of community.
+                                Singing devotional songs and prayers to connect with the divine and foster a sense of community. <strong>All Are One; Be Alike To Everyone</strong>.
                             </p>
                         </a>
                     </li>

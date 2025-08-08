@@ -122,9 +122,9 @@ function Contact() {
                         Relationship to Student
                         <select className="cs-input" value={parentchild} required id="relationship-490" onChange={(e) => setParentChild(e.target.value)}>
                             <option value="" disabled>Select Relationship</option>
-                            <option value="Parent">Father</option>
-                            <option value="Guardian">Mother</option>
-                            <option value="Guardian">Relative</option>
+                            <option value="Father">Father</option>
+                            <option value="Mother">Mother</option>
+                            <option value="Relative">Relative</option>
                         </select>
                     </label>
                     <label className="cs-label">

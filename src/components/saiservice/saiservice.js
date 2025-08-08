@@ -3,6 +3,61 @@ import './saiservice.css';
 
 
 function SaiService() {
+            const [parentname, setsName] = React.useState('');
+            const [parentemail, setsEmail] = React.useState('');
+            const [parentphone, setsPhone] = React.useState('');
+            const [joinwhatsapp, setWhatsapp] = React.useState(false);
+            const [message, setMessage] = React.useState('');
+            const handleSubmit = (event) => {
+            event.preventDefault();
+
+            if (parentname.trim() === "") {
+                setMessage("Please enter Name.");
+            return;
+            }
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(parentemail)) {
+                setMessage("Please enter a valid email address.");
+                return;
+            }
+
+            if (!parentemail.includes('@') || !parentemail.includes('.')) {
+                setMessage("Please enter a valid email address.");
+            return;
+            }
+
+            if (parentphone.trim() === "" || isNaN(parentphone)) {
+                setMessage("Please enter a valid phone number.");
+            return;
+            }
+
+            // Collect form data
+            const formData = new URLSearchParams();
+            formData.append("parentname", parentname);
+            formData.append("parentemail", parentemail);
+            formData.append("parentphone", parentphone);
+            formData.append("joinwhatsapp", joinwhatsapp);
+            formData.append("message", message);
+            const url = process.env.REACT_APP_GOOGLE_SCRIPT_URL_SAIEVENT;
+            fetch(url, {
+                method: "POST",
+                headers: {
+                "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+                },
+                body: formData.toString(),
+            })
+            .then((res) => res.json())
+            .then((data) => {
+            console.log("Response:", data);
+            setMessage("SaiRam !!! Thank you for your submission!");
+            setsName("");
+            setsEmail("");
+            setsPhone("");
+            setWhatsapp(false);
+            })
+            .catch((err) => console.error("Error:", err));
+        };
+
     return (
             <>
             <section id="services-1267">
@@ -28,8 +83,27 @@ function SaiService() {
                                 <strong>Service to Others as Service to God</strong>: Baba taught that serving humanity is serving the divine. 
                             </li>
                         </ol>
-                        
-                        <a href="/sse" className="cs-button-solid">Join and Participate</a>
+                        <form id="cs-form-490" name="Sai Event Form" method="post" onSubmit={handleSubmit}>
+                            <div> <h3>{message ? <p> {message} </p> : null}</h3> </div>
+                            <label className="cs-label">
+                                Name
+                                <input className="cs-input" value={parentname} required type="text" id="sname-490" placeholder="Name" onChange={(e) => setsName(e.target.value)} ></input>
+                            </label>
+                            <label className="cs-label">
+                                Email
+                                <input className="cs-input" value={parentemail} required type="text" id="semail-490" placeholder="Email" onChange={(e) => setsEmail(e.target.value)} ></input>
+                            </label>
+                            <label className="cs-label">
+                                Phone
+                                <input className="cs-input" value={parentphone} required type="text" id="sphone-490" placeholder="Phone" onChange={(e) => setsPhone(e.target.value)} ></input>
+                            </label>
+                            <label className="cs-label">
+                                Join Whatsapp Group
+                                <input className="cs-input" value={joinwhatsapp} type="checkbox" id="swhatsapp-490" checked={joinwhatsapp} onChange={(e) => setWhatsapp(e.target.checked)}></input>
+                                <span className="cs-checkbox">Yes, I would like to join Whatsapp group</span>
+                            </label>
+                            <button className="cs-button-solid" type="submit">Sai Ram .. Add Me</button>
+                        </form>
                     </div>
                     <div className="cs-wrapper">
                         <ul className="cs-card-group">

@@ -95,6 +95,29 @@ function Contact() {
                     <a href="" className="cs-link">
                         2418 W Mangold Ave, <br />Milwaukee, WI 53221
                     </a>
+                    <br /><br />
+                    <h2 className="cs-header"> What is SSE?</h2>
+                    <p className="cs-text">Sai Spiritual Education (SSE) is a program that aims to deliver teaching using the below methods:</p>
+                    <ul>
+                        <li>Stories</li>
+                        <li>Bhajans</li>
+                        <li>Life Applications</li>
+                        <li>Activities</li>
+                        <li>Noble Personalities</li>
+                        <li>Festivals</li>
+                    </ul>
+                    <p className="cs-text">
+                        The program is designed to help children by:
+                    </p>
+                    <ol className="cs-list">
+                        <li>Developing a strong moral foundation</li>
+                        <li>Building character and values</li>
+                        <li>Encouraging service to others</li>
+                        <li>Fostering a sense of community and belonging</li>
+                    </ol>
+                    <p className="cs-text">
+                        The program is conducted by <strong>trained volunteers</strong> who are dedicated to helping children develop their spiritual potential.
+                    </p>
                 </div>
                 <form id="cs-form-490" name="Contact Form" method="post" onSubmit={handleSubmit}>
                     <div> <h3>{message ? <p> {message} </p> : null}</h3> </div>

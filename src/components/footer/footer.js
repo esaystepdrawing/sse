@@ -12,9 +12,7 @@ function Footer() {
                     </a>
                 </div>
                 <ul className="cs-nav">
-                    <li className="cs-nav-li">
-                        <span className="cs-header">Contact</span>
-                    </li>
+                    <span className="cs-header">Contact</span>
                     <li className="cs-nav-li">
                         <a className="cs-nav-link" href="tel:414-301-2753">(414) 301 2753</a>
                     </li>
@@ -23,25 +21,25 @@ function Footer() {
                     </li>
                 </ul>
                 <ul className="cs-nav">
-                    <li className="cs-nav-li">
-                        <span className="cs-header">Address</span>
-                    </li>
+                    <span className="cs-header">Address</span>
                     <li className="cs-nav-li">
                         <a className="cs-nav-link" href="/">2418 W Mangold Ave,<br /> Milwaukee, WI 53221</a>
                     </li>
                 </ul>
                 <ul className="cs-nav">
+                    <span className="cs-header">Hours</span>
                     <li className="cs-nav-li">
-                        <span className="cs-header">Hours</span>
-                    </li>
-                    <li className="cs-nav-li">
-                        Sunday: 2:30pm-6:00pm
+                        <strong>Sunday: 2:30 - 5:30pm</strong>
+                        <ul>
+                            <li><strong>Service Activity</strong>: 2:30pm-3:00pm</li>
+                            <li><strong>Bal Vikas / SSE</strong>: 3:00pm-4:00pm</li>
+                            <li><strong>Bhajans</strong>: 4:00pm-5:00pm</li>
+                            <li><strong>Social</strong>: 5:00pm-5:30pm</li>
+                        </ul>
                     </li>
                 </ul>
                  <ul className="cs-nav">
-                    <li className="cs-nav-li">
-                        <span className="cs-header">Sai Websites</span>
-                    </li>
+                    <span className="cs-header">Sai Websites</span>
                     <li className="cs-nav-li">
                         <a href="https://www.sathyasai.org/" className="cs-nav-link" target="_blank" rel="noopener noreferrer">Sathya Sai International Organization</a>
                     </li>

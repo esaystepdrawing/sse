@@ -6,10 +6,10 @@ function Header() {
         <>
             <section id="hero-143">
                 <div className="cs-container">
-                    <h1 className="cs-title">Sathya Sai Center - Milwaukee, WI</h1>
+                    <h1 className="cs-title">Sri Sathya Sai Center - Milwaukee, WI</h1>
                     <p className="cs-text">
                         <br />
-                        Sathya Sai Center of Milwaukee is a spiritual organization that promotes the teachings of Sathya Sai Baba, focusing on Selfless Service, Love, and Unity among all people.
+                        Sri Sathya Sai Center of Milwaukee is a spiritual organization that promotes the teachings of Sathya Sai Baba, focusing on Selfless Service, Love, and Unity among all people.
                     </p>
                     <h1 className="cs-title">Love All, Serve All. <br />Help Ever, Hurt Never.</h1>
 
